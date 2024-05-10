@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("25530780"))
+API_HASH = getenv("7c04db84c3601b8e62f16425ab88c42e")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("AAEG5dPv0FrZVJVF8oT9Wrw63ZyHhKPfYI4")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "5736470740"))
+OWNER_ID = int(getenv("OWNER_ID", "7130447841"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -83,7 +83,7 @@ PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/bc7f8903e60fbfafa2eb4.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://graph.org/file/2fd73ef39c62047594009.jpg"
+STATS_IMG_URL = "https://graph.org/file/d15dbe2ad3f06c0081217.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org/file/6db32c63c677905cc5cc3.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
